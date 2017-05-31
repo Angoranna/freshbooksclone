@@ -1,0 +1,432 @@
+header{
+	
+	height: 130px;
+	border-bottom: 1px solid;
+	border-color: gray;
+}
+
+body{
+	padding-left: 35px;
+	padding-right: 35px;
+
+}
+.logo{
+	width: 120px;
+	height: 20px;
+	margin-left: 15px;
+	float: left;
+}
+.haute{
+	width: 850px;
+	height: 40px;
+	float: right;
+	margin-right: 15px;
+	text-align: left;
+
+}
+.basse{
+	width: 900px;
+	height: 40px;
+	float: right;
+	margin-right: 15px;
+}
+.haute ul li{
+	float: right;
+	display: inline-block;
+	padding-left: 20px;
+	color: rgb(173, 173, 173);
+}
+.basse ul li{
+	display: inline-block;
+	padding-left: 55px;
+	float: right;
+	padding-right: 10px;
+	color: rgb(173, 173, 173);
+}
+
+
+.corps{
+	width: 1280px;
+	height: 400px;
+	background-image: url("images/home.jpg");
+	padding-left: 45px;
+}
+h1{
+	color: #0d83dd;
+	line-height: 50px;
+}
+.corps p{
+	font-family: arial;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.corps .btn{
+	width: 250px;
+	height: 60px;
+	margin-bottom: 20px;
+	background-color: #85c525;
+	padding-top: 18px;
+}*/
+.sponsor{
+	background-color: #f1f1f1;
+
+	}
+
+.sponsor ul li{
+	list-style-type:none;
+	display: inline; 
+	padding-right: 50px;
+
+}
+.cloud .clo,.clos{
+	display: inline-block;
+	margin-right: 100px;
+}
+.innove{
+	height:430px;
+	background-color: #e5f4fe;
+	padding-left: 40px;
+}
+.innove ul li{
+	display: inline-block;
+	padding-right: 80px;
+	padding-top: 20px;
+	font-size: 20px;
+
+
+}
+.innove img{
+	position: relative;
+	bottom: 150px;
+	left: 250px;
+	
+}
+.innove .btn{
+	color: black;
+	background-color:transparent;
+	background-color: rgb(54, 173, 48);
+	position: relative;
+	bottom: 130px;
+}
+.innove .btn:hover{
+	color: white;
+	background-color: green; }
+.innove h3{
+	color: blue;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.innove p{
+	font-size: 20px;
+}
+.sma img {
+	width: 150px;
+	height: 150px;
+}
+.image-circle{
+	border-radius: 100%;
+
+}
+
+
+.sma{
+	position: relative;
+	top: 70px;
+	text-align: center;
+}
+.sma .kat,.pat,.rom{
+	display: inline-block;
+	padding-right: 120px;
+}
+
+hr {
+	width: 60px;
+	border: 1px solid #0d83dd ;
+}
+
+
+.fax{
+	border: 1px solid gray;
+	position: relative;
+	top: 80px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 26px;
+}
+.fax.btn{
+	width: 180px;
+	height: 70px;
+	margin-top: 10px;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.learn{
+	position: relative;
+	top: 150px;
+	margin: 0 40px;
+
+}
+.learn .empl,.age{
+	display: inline-block;
+	text-align: center;
+	padding-right: 30px;
+
+}
+.learn .btn{
+ 	width: 150px;
+ 	height: 30px;
+ 	background: transparent;
+ 	color: black;
+ 	
+}
+.learn .btn:hover{
+	color: white;
+	background: blue;
+}
+/*.mob{
+	position: relative;
+	top: 120px;
+}
+.phone{
+	
+	background: black;
+}
+.mobile h1{
+	padding-top: 90px;
+}
+.co{
+	position: relative;
+	top: 200px;
+	width: 330px;
+	height: 480px;
+}
+.c2{
+	float: right;
+
+}*/
+
+.run {
+   display: inline-block;
+   padding-top: 200px;
+   font-size: 15px;
+  margin-left: 2.5em;
+  margin-right : 3.2em;
+  
+}
+
+.con{
+	float: right;
+	padding-top: 25px;
+	padding: 2em;
+}
+
+.con .btn{
+	width: 200px;
+ 	height: 50px;
+ 	background: transparent;
+ 	color: black;
+ 	text-align: center;
+ 	font-size: 15px;
+ 	border-color: rgb(160, 155, 155);
+ 	padding: 1.2em;
+}
+
+.con p{
+	text-align: center;
+	padding: 1.2em;
+}
+
+
+.save{
+	border: 1px solid gray;
+	position: relative;
+	top: 80px;
+	text-align: right;
+	border-radius: 10px;
+	font-size: 26px;
+}
+.save .btn{
+	width: 180px;
+	height: 50px;
+	margin-top: 10px;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.save p {
+	float: center;
+    text-align: right;
+    margin: 0.2em
+}
+.support-customer {
+	float: right;
+	padding-top: 120px;
+	text-align: justify;
+	font-size: 18px;
+	padding-right: 7em;
+	font-family: times New Roman, sans-serif;
+}
+
+.support-img{
+	padding-top: 10em;
+	margin-left: 6em;
+}
+
+ a{
+ text-align: left;
+}
+
+.fresh-philo{
+	text-align: center;
+}
+
+.fresh-philo .btn{
+   color: black;
+	background-color:transparent;
+	bottom: 130px;
+	border-color: rgb(196, 194, 194);
+	width: 10em;
+}
+
+.profile-img{
+	padding: 2em;
+	padding-left: 2em;
+	margin-right: 2.2em;
+	text-align: left;
+}
+
+.get-started{
+	float: left;
+	padding: 5em;
+}
+.logo-join img{
+	float: right;
+	text-align: left;
+	padding: 5em;
+}
+
+.get-started .btn{
+	color: black;
+	background-color: rgb(120, 196, 76);
+	bottom: 500px;
+	border-color:rgb(196, 194, 194) ;
+	width: 18em;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1.2em;
+	height: 4.5em;
+	text-align: center;
+}
+
+.cred-card{
+	float: right;
+	text-align: center;
+}
+
+span{
+	float: right;
+
+}
+
+.get-started .cred-card{
+	margin-left: 1.2em;
+	text-align: justify;
+}
+
+
+/*.footer-log {
+	float: left;
+	padding: 9em;
+	text-align: left;
+}
+
+.footer-comp{
+	display: inline-table;
+	text-align: center;
+	padding: 8em;
+
+	
+}
+
+.footer-prod{
+	display: inline-table;
+	float: right;	
+}
+
+
+.footer-for{
+	display: inline-table;
+	float: right;
+}
+
+
+.footer-part{
+	display: inline-table;
+	float: right;
+	
+}
+
+.footer-poli{
+	display: inline-table;
+	float: right;
+}*/
+
+footer{
+	text-align: center;
+	float: left;
+	clear: both;
+}
+
+td{
+	padding: 2em;
+
+}
+
+
+td h3{
+	font-size: 20px;
+	height: 1px solid;
+	padding-top: 0.1em;
+	margin: 0.1em;
+	text-align: center;
+
+}
+.rev-elmt h3{
+   text-align: right;
+
+}
+
+.icon-circle {
+	width: 18em;
+	font-size: 35px;
+	text-align: right;
+}
+
+.card-icon{
+float: right;
+text-align: right;
+}
+.footer-copy {
+	text-align: right;
+	float: right;
+	padding: 1em;
+	padding-right: 2em;
+
+}
+
+.app-store-apple{
+	float: left;
+	text-align: right;
+}
+
+.container{
+	float: right;
+	text-align: right;
+	margin: 0.3em;
+	margin-top: 0.5em;
+	border-top: 1px solid;
+	width: 1400px;
+	margin-right: 0.2em;
+	border-color: rgb(183, 178, 178);
+
+}
