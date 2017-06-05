@@ -1,29 +1,38 @@
 header{
 	
-	height: 130px;
+	height: 150px;
 	border-bottom: 1px solid;
-	border-color: gray;
+	border-color: rgb(160, 157, 157);
+	margin-bottom: 30px;
+
 }
 
 body{
-	padding-left: 35px;
+	padding-left: 20px;
 	padding-right: 35px;
 
 }
 .logo{
 	width: 120px;
 	height: 20px;
-	margin-left: 15px;
+	bottom: 2;
+	margin-left: 8px;
 	float: left;
 }
 .haute{
 	width: 850px;
-	height: 40px;
+	height: 50px;
 	float: right;
 	margin-right: 15px;
 	text-align: left;
 
 }
+
+.btn:hover{
+  background-color: rgb(54, 211, 46);
+}
+
+
 .basse{
 	width: 900px;
 	height: 40px;
@@ -34,7 +43,7 @@ body{
 	float: right;
 	display: inline-block;
 	padding-left: 20px;
-	color: rgb(173, 173, 173);
+	color: rgb(56, 53, 53);
 }
 .basse ul li{
 	display: inline-block;
@@ -46,9 +55,9 @@ body{
 
 
 .corps{
-	width: 1280px;
+	width: 1345px;
 	height: 400px;
-	background-image: url("images/home.jpg");
+	background-image: url("images/home-computer-hero@2x.jpg");
 	padding-left: 45px;
 }
 h1{
@@ -57,19 +66,20 @@ h1{
 }
 .corps p{
 	font-family: arial;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-top: 35px
+	margin-bottom: 0.2px;
 	text-align: left;
 }
 .corps .btn{
 	width: 250px;
 	height: 60px;
-	margin-bottom: 20px;
-	background-color: #85c525;
-	padding-top: 18px;
-}*/
+	margin-bottom: 10px;
+	background-color:#85c525;
+
+}
 .sponsor{
 	background-color: #f1f1f1;
+	width: 1345px;
 
 	}
 
@@ -184,27 +194,7 @@ hr {
 	color: white;
 	background: blue;
 }
-/*.mob{
-	position: relative;
-	top: 120px;
-}
-.phone{
-	
-	background: black;
-}
-.mobile h1{
-	padding-top: 90px;
-}
-.co{
-	position: relative;
-	top: 200px;
-	width: 330px;
-	height: 480px;
-}
-.c2{
-	float: right;
 
-}*/
 
 .run {
    display: inline-block;
@@ -274,40 +264,54 @@ hr {
 
  a{
  text-align: left;
+ color: rgb(170, 167, 167);
 }
 
-.fresh-philo{
+.fresh-philo {
 	text-align: center;
 }
+
 
 .fresh-philo .btn{
    color: black;
 	background-color:transparent;
 	bottom: 130px;
 	border-color: rgb(196, 194, 194);
-	width: 10em;
+	width: 12em;
+	height:3.5em;
+	border-radius: 4px;
+	box-shadow: 2em;
 }
 
 .profile-img{
-	padding: 2em;
-	padding-left: 2em;
-	margin-right: 2.2em;
+	padding: auto;
+	padding-left: 2px;
+	margin-right: auto;
 	text-align: left;
+	padding-top: 5em;
+	width: 1400px;
 }
 
 .get-started{
 	float: left;
 	padding: 5em;
+	padding-left: 3em;
+	width: 1400px;
+	background-color: rgb(21, 0, 255);
+	background-repeat: no-repeat;
+	color:white;
+
 }
 .logo-join img{
 	float: right;
 	text-align: left;
-	padding: 5em;
+	padding: 1.1px;
+	padding-left:8em;
 }
 
 .get-started .btn{
-	color: black;
-	background-color: rgb(120, 196, 76);
+	color: white;
+	background-color: rgb(54, 211, 46);
 	bottom: 500px;
 	border-color:rgb(196, 194, 194) ;
 	width: 18em;
@@ -318,13 +322,24 @@ hr {
 	text-align: center;
 }
 
-.cred-card{
-	float: right;
-	text-align: center;
+.get-started h2{
+	color: white;
 }
 
-span{
+
+.cred-card{
 	float: right;
+	text-align: left;
+	padding: auto;
+	color: white;
+}
+
+.cred-card p{
+	float: left;
+	padding-right: 12em;
+	text-align: justify;
+	padding-top: 0.5em;
+}
 
 }
 
@@ -334,42 +349,11 @@ span{
 }
 
 
-/*.footer-log {
+.img-fresh{
 	float: left;
-	padding: 9em;
-	text-align: left;
+	padding: 0.1em;
+	margin-left:.1em
 }
-
-.footer-comp{
-	display: inline-table;
-	text-align: center;
-	padding: 8em;
-
-	
-}
-
-.footer-prod{
-	display: inline-table;
-	float: right;	
-}
-
-
-.footer-for{
-	display: inline-table;
-	float: right;
-}
-
-
-.footer-part{
-	display: inline-table;
-	float: right;
-	
-}
-
-.footer-poli{
-	display: inline-table;
-	float: right;
-}*/
 
 footer{
 	text-align: center;
@@ -377,18 +361,6 @@ footer{
 	clear: both;
 }
 
-td{
-	padding: 2em;
-
-}
-
-
-td h3{
-	font-size: 20px;
-	height: 1px solid;
-	padding-top: 0.1em;
-	margin: 0.1em;
-	text-align: center;
 
 }
 .rev-elmt h3{
@@ -409,24 +381,70 @@ text-align: right;
 .footer-copy {
 	text-align: right;
 	float: right;
-	padding: 1em;
-	padding-right: 2em;
+	padding:.1em;
+	padding-right:.1em;
 
 }
 
 .app-store-apple{
 	float: left;
-	text-align: right;
-}
 
-.container{
+	
+}
+.container1{
 	float: right;
 	text-align: right;
-	margin: 0.3em;
-	margin-top: 0.5em;
 	border-top: 1px solid;
-	width: 1400px;
-	margin-right: 0.2em;
+	width: 1550px;
+	padding-top: 0.1em;
+	margin-top: 1px;
+	height: 3px;
+	margin-left: 3em;
 	border-color: rgb(183, 178, 178);
+}
+
+[class*="col1"]{
+margin-left:18em;
+margin-top: 15px;
+margin-bottom: 0.1px;
+margin-top: 0.1px;
 
 }
+
+[class*="col1"].card-icons{
+	float: right;
+	margin: none;
+}
+
+	[class*="col"]{
+		margin-bottom: 12px;
+	   padding-right: 2em;
+       font-size: 15px;
+       color:rgb(79, 98, 117);
+      
+       }
+       
+ /*[class*="col1"].icon-circle{
+ 	border-radius: 50%;
+ 	width: 30px;
+ }
+ #select{
+	width: 2px;
+	border: 0px;
+}*/
+
+.form-group{
+	margin-right: 9px;
+	text-align: right;
+	padding: 3px;
+	float:  right;
+	margin-left: 3px;
+
+
+}
+
+./*form-group1{
+	margin-bottom: 17em;
+	float: right;
+}
+
